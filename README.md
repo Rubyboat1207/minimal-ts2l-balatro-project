@@ -3,7 +3,7 @@
 1. Modify the package.json to fit your project
 2. run ``npm install``
 3. to build and install, run ``npm run build``
-4. you need steammoded to just like get that i guess
+4. you need steamoded to just like get that i guess
 5. Game code runs in index.ts
 6. Generally, I'll put any lovely patches in the /src/game_events.ts folder
 7. If you want to use lua things, just define them in the .d.ts file
