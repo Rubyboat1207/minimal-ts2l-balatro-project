@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "ESNext",
+        ],
+        "moduleResolution": "Node",
+        "types": [
+            "love-typescript-definitions",
+            "@typescript-to-lua/language-extensions"
+        ]
+    },
+    "tstl": {
+        "luaTarget": "JIT",
+        "noImplicitSelf": true,
+        "luaBundleEntry": "src/index.ts",
+        "luaBundle": "build/src/index.lua",
+        "luaLibImport": "require-minimal" 
+    },
+    "exclude": ["build.ts"],
+    "include": ["src/**/*.ts"]
+}

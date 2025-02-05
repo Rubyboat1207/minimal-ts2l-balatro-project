@@ -1,0 +1,30 @@
+{
+  "name": "balatro-ts",
+  "displayName": "Balatro TS",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tstl && ts-node build.ts && tstl",
+    "watch-build": "nodemon --watch src/**.ts --watch extra_lua/*.ts --ext ts,lua --exec \"npx npm run build\""
+  },
+  "author": "Rubyboat",
+  "license": "MIT",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "love-typescript-definitions": "^11.5.0",
+    "nodemon": "^3.1.9",
+    "ts-morph": "^25.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "typescript-to-lua": "^1.30.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  },
+  "smod_deps": [
+    "Steamodded (*)",
+    "Balatro (>=1.0)"
+  ]
+}
